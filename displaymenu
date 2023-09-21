@@ -1,0 +1,22 @@
+def main():
+        # Menu
+      while True:
+        print("Menu:")
+        print("1. Create a File")
+        print("2. Rename a File")
+        print("3. Open a File")
+        print("4  Read a file")
+        print("5. Exit Program")
+        user=input(("choose a option 1/2/3/4/5\n"))
+        if user=='1':
+          print("option 1 creat file is selected")
+        elif user=='2':
+          print("option 2 Rename a file is selected.")
+        elif user=='3':
+          print("option 3 open a file is selected.")
+        elif user=='4':
+          print("option 4 read file is selected.")
+        elif user=='5':
+          print("option 5 exit program is selected.")
+        break
+main()
